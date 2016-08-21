@@ -13,7 +13,7 @@ import (
 
 const (
 	namespace  = "rabbitmq"
-	defaultConfigPath = "config.json"
+	defaultConfigPath = "/etc/prometheus/rabbitmq_exporter.json"
 )
 
 var log = logrus.New()
